@@ -241,10 +241,9 @@ span.text-red {
 }
 .footer-banner-image {
   position: absolute;
-  /* top: -35%;
-  left: 8%; */
-  top: -25%;
-  left: 25%;
+  width: 60%;
+  top: -29%;
+  left: 20%;
 }
 .banner-desc .right {
   line-height: 1.4;
@@ -620,12 +619,13 @@ span.text-red {
   .footer-banner-container {
     height: 560px;
     margin-top: 80px;
+    z-index: -2;
   }
   .footer-banner-image {
-    width: 77%;
-    left: 30%;
-    top: 6%;
+    top: 20%;
     height: 56%;
+    opacity: 30%;
+    z-index: -1;
   }
   .banner-desc .left h3 {
     font-weight: 900;
