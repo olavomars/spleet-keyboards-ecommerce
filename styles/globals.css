@@ -210,7 +210,7 @@ span.text-red {
   background-color: #f02d34;
   border-radius: 15px;
   position: relative;
-  height: 400px;
+  height: 450px;
   line-height: 1;
   color: white;
   width: 100%;
@@ -250,7 +250,7 @@ span.text-red {
 }
 .banner-desc .right h3 {
   font-weight: 800;
-  font-size: 60px;
+  font-size: 50px;
 }
 .banner-desc .right p {
   font-size: 18px;
@@ -609,34 +609,40 @@ span.text-red {
 @media screen and (max-width: 800px) {
   .hero-banner-container {
     height: 560px;
+    z-index: -2;
   }
   .hero-banner-image {
-    width: 77%;
-    height: 62%;
-    top: -2%;
-    right: -6%;
+    height: 50%;
+    top: 140px;
+    right: 0;
+    z-index: -1;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
   }
   .footer-banner-container {
-    height: 560px;
-    margin-top: 80px;
+    height: 580px;
     z-index: -2;
   }
   .footer-banner-image {
-    top: 20%;
-    height: 56%;
-    opacity: 30%;
+    height: 50%;
+    top: 140px;
+    left: 0;
     z-index: -1;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
   }
   .banner-desc .left h3 {
     font-weight: 900;
-    font-size: 50px;
+    font-size: 40px;
     margin-left: 5px;
   }
   .banner-desc .left p {
     margin: 18px;
   }
   .banner-desc .right h3 {
-    font-size: 45px;
+    font-size: 35px;
   }
   .banner-desc .right p {
     font-size: 18px;
