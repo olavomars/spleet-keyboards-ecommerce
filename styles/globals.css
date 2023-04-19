@@ -406,6 +406,7 @@ span.text-red {
   display: flex;
   gap: 40px;
   margin: 40px;
+  justify-content: center;
   margin-top: 60px;
   color: #324d67;
 }
