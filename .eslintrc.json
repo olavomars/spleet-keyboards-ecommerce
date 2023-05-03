@@ -1,11 +1,4 @@
 {
-  "extends": [
-    "next/babel",
-    "next/core-web-vitals",
-    "plugin:@next/next/recommended"
-  ],
-  "rules": {
-    "react/no-unescaped-entities": "off",
-    "@next/next/no-page-custom-font": "off"
-  }
+  "extends": "next",
+  "root": true
 }
